@@ -1,0 +1,32 @@
+.feedback-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.feedback-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.feedback-container input,
+.feedback-container select,
+.feedback-container textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.feedback-container button {
+  background: #333;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-container button:hover {
+  background: #555;
+}
